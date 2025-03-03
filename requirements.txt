@@ -1,0 +1,6 @@
+streamlit
+pyttsx3
+google-generativeai
+Pillow
+gradio-client
+python-dotenv
