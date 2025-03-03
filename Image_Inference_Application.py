@@ -66,7 +66,7 @@ def main():
 
     if image_file is not None:
         image = Image.open(image_file)
-        st.image(image, caption='Uploaded Image', use_column_width=True)
+        st.image(image, caption='Uploaded Image', use_container_width=True)
 
         if not st.session_state.image_uploaded:
             st.success("Image uploaded successfully!")
